@@ -53,7 +53,7 @@ function VaildateSidFormat(control: AbstractControl) {
   } else {
     return {
       sidFormat: true,
-      error_message: '可淡入錯誤訊息，但比較少這樣使用'
+      error_message: '可傳入錯誤訊息，但比較少這樣使用'
     };
   }
 }

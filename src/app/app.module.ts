@@ -13,6 +13,7 @@ import { LoginGuard } from "app/login.guard";
 import { EnsureInputGuard } from "app/ensure-input.guard";
 import { ClassicComponent } from './form/classic/classic.component';
 import { Classic2Component } from './form/classic2/classic2.component';
+import { LoadingBtnDirective } from './loading-btn.directive';
 //import { FlotComponent } from './charts/flot/flot.component';
 //import { ChartsModule } from "app/charts/charts.module";
 
@@ -24,7 +25,8 @@ import { Classic2Component } from './form/classic2/classic2.component';
     LayoutComponent,
     LoginComponent,
     ClassicComponent,
-    Classic2Component
+    Classic2Component,
+    LoadingBtnDirective
   ],
   imports: [
     BrowserModule,

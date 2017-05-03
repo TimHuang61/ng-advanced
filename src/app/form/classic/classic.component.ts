@@ -29,4 +29,8 @@ export class ClassicComponent implements OnInit {
     console.log(f.form.controls.secret);
     f.reset(this.data);
   }
+
+  test() {
+    console.log('test');
+  }
 }
