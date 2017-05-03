@@ -14,6 +14,7 @@ import { EnsureInputGuard } from "app/ensure-input.guard";
 import { ClassicComponent } from './form/classic/classic.component';
 import { Classic2Component } from './form/classic2/classic2.component';
 import { LoadingBtnDirective } from './loading-btn.directive';
+import { LoadingDirective } from './loading.directive';
 //import { FlotComponent } from './charts/flot/flot.component';
 //import { ChartsModule } from "app/charts/charts.module";
 
@@ -26,7 +27,8 @@ import { LoadingBtnDirective } from './loading-btn.directive';
     LoginComponent,
     ClassicComponent,
     Classic2Component,
-    LoadingBtnDirective
+    LoadingDirective,
+    LoadingBtnDirective  
   ],
   imports: [
     BrowserModule,
